@@ -15,15 +15,15 @@
 
         <div class="nav-container">
             <div class="logo">
-                <img src="./Media/logo.png" class="logo-img" alt="Coder Army Logo">
+                <img src="./Media/logo-tc.png" class="logo-img" alt="Coder Army Logo">
                 <span>Strike</span> 
             </div>
 
             <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Courses</a>
-                <a href="#">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#new-courses">HotCourses</a>
+                <a href="#about">Contact</a>
             </div>
 
             <div class="login" > 
@@ -33,7 +33,7 @@
 
     </nav>
 
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-container">
             <div class="container-left">
                 <h1>Be a part of our Army</h1>
@@ -50,7 +50,7 @@
         </div>
     </section>
     
-    <section class="courses">
+    <section class="courses" id="courses">
         <h1 id="toph1">
             Our Premium Courses
         </h1>
@@ -113,27 +113,77 @@
         </div>
     </section>
 
-    <section class="new-courses">
+    <section class="new-courses" id="new-courses">
           <h1 id="toph1">
             New Hot Courses
         </h1>
         <h3 id="toph3">
             Stay tuned coders, we are launching exciting new courses soon. Keep an eye out for updates!
         </h3>
+        <div class="new-courses-container">
+            <div class="course-card" id="card-1">
+                <div class="card-img-cont">
+                    <img src="/Media/genai-temp.jpg" height="100%" width="100%" alt="">
+                </div>
+                <div class="below-img-cont">
+                    <div class="below-img-content">
+                        <div class="lectbta">
+                            <h6>80 lectures</h6>
+                            <div id="foo">
+                            <h6>2025</h6>
+                            </div>
+                            <h6 id="bta">Beginner to Advance</h6>
+                        </div>
+                        <br>
+                        <h3>Ultimate Gen Ai + projects</h3>
+                        <br>
+                        <p>Master gen ai concepts and advanced problem solving techniques to crack interviews with confidence.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="course-card" id="card-2">
+                <div class="card-img-cont">
+                    <img src="/Media/dsaPaid.png" height="100%" width="100%" alt="">
+                </div>
+                <div class="below-img-cont">
+                    <div class="below-img-content">
+                        <div class="lectbta">
+                            <h6>120 lectures</h6>
+                            <div id="foo">
+                            <h6>2025</h6>
+                            </div>
+                            <h6 id="bta">Beginner to Advance</h6>
+                        </div>
+                        <br>
+                        <h3>Data Structure & Algorithm (DSA)</h3>
+                        <br>
+                        <p>Master DSA concepts and advanced problem solving techniques to crack FAANG interviews with confidence.</p>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-container">
-            <h2>Meet your instructors</h2> <br>
+            <h2 id="m-y-i">Meet your instructors</h2> <br>
             <p>Learn from industry experts with real-world experience and proven track records</p>
             <div class="instructor">
                 <div class="rohit-negi">
-                    <img src="./Media/rohit_negi.png" height="25%" width="25%" alt="">
-                    <h2>Rohit Negi</h2>
+                    <img src="./Media/rohit_negi.png" height="35%" width="35%" alt="">
+                    <div class="intructor-info">
+                        <h2>Rohit Negi</h2> 
+                        <a href="https://www.linkedin.com/in/rohit-negi9/">Profile</a>
+                    </div>
                 </div>
                 <div class="aditya-tondon">
-                    <img src="Media/aditya_tandon.png" height="25%" width="25%" alt="">
-                    <h2>Aditya Tandon</h2>
+                    
+                    <img src="Media/aditya_tandon.png" height="35%" width="35%" alt="">
+                    <div class="intructor-info">
+                        <h2>Aditya Tandon</h2> 
+                        <a href="https://www.linkedin.com/in/adityatandon2/">Profile</a>
+                    </div>
                 </div>
             </div>
         </div>
